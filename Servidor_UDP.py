@@ -20,3 +20,5 @@ while True:
     if  dados:
         print("Servidor enviando msg")
         s.sendto(dados + msg.encode(),adress)
+
+
